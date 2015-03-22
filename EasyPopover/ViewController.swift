@@ -12,8 +12,8 @@ class ViewController: UIViewController {
 
     @IBAction func showPopover(sender: UIButton) {
         
-//        var view = UIView(frame: CGRectMake(0, 0, CGFloat(arc4random()%1000), CGFloat(arc4random()%1000)))
-        var view = UIView(frame: CGRectMake(0, 0, 200, 100))
+        var view = UIView(frame: CGRectMake(0, 0, CGFloat(arc4random()%1000), CGFloat(arc4random()%1000)))
+//        var view = UIView(frame: CGRectMake(0, 0, 200, 100))
         view.backgroundColor = UIColor.blackColor()
         
         EasyPopover(contentView: view).popFromRect(sender.frame, inView: self.view)

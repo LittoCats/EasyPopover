@@ -137,6 +137,7 @@ extension EasyPopover {
             size.height = min(size.height, view.frame.height - borderSize * 2)
             scrollView.frame.size = size
             scrollView.center = CGPointMake(view.frame.width / 2, view.frame.height / 2)
+            arrowPosition.pass = scrollView.center
         }else{
             
             // 确定 arrow 方向
