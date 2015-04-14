@@ -78,7 +78,7 @@ final class EasyPopover: UIView {
 }
 
 extension EasyPopover {
-    override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
         dismiss(animated: true)
     }
     

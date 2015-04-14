@@ -1,12 +1,3 @@
-# Easy Popover
+# Formula Animation
 
-contentView 需设置期望显示的 Frame
-
-```
-init(contentView view: UIView, tintColor: UIColor = UIColor.clearColor())
-
-func popFromRect(rect: CGRect, inView view: UIView, animated: Bool = true)
-
-func dismiss(animated: Bool = true)
-
-```
+Formula animation 主要是依据路径公式，计算出 View 的位移路径，自动生成
